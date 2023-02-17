@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>App</title>
+  </head>
+  <body>
+    <section class="get-started">
+      <div class="get__wrapper">
+        <div class="get__title">
+          <img src="./img/get-started.png" alt="g" />
+          <h2>Learn whenever and wherever you want with skill pro.</h2>
+          <p>
+            Study as if you constantly feel the lack of your knowledge, and as
+            if you are constantly afraid of losing your knowledge.
+          </p>
+        </div>
+        <button id="start">Get Started</button>
+      </div>
+    </section>
+    <section class="section-form">
+      <h1>Skill pro</h1>
+      <div class="form__wrapper">
+        <h2>Sign In</h2>
+        <p>Access all of your courses in one app</p>
+        <form>
+          <label for="name">
+            <div class="input__name">
+              <img class="name" src="./img/Profile.svg" alt="" />
+              <input type="text" name="name" id="name" placeholder="Username" />
+            </div>
+            <img class="access" src="./img/Accept.svg" alt="Accept"
+          /></label>
+          <label for="password">
+            <div class="input__pass">
+              <img class="lock" src="./img/Lock.svg" alt="" />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <img class="eye" src="./img/Eye-slash.svg" alt="" />
+          </label>
+          <div class="flex">
+            <label for="checkbox"
+              ><input type="checkbox" name="checkbox" id="checkbox" />Remember
+              me</label
+            >
+            <a href="#">Recovery password</a>
+          </div>
+          <a href="main.html" id="login">Login</a>
+        </form>
+        <div class="social__wrapper">
+          <p>Or sign in with</p>
+          <div class="social">
+            <img src="./img/google.png" alt="" />
+            <img src="./img/fb.png" alt="" />
+          </div>
+        </div>
+        <div class="not-a-member">
+          <span>Not a member?</span>
+          <a href="#">Register now</a>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
