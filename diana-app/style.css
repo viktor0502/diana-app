@@ -129,6 +129,22 @@ form {
   flex-direction: column;
   gap: 16px;
 }
+form .label_checkbox {
+  border: none;
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c8da;
+}
+form .checkbox__wrapper {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
 form label {
   display: flex;
   align-items: center;
@@ -149,13 +165,6 @@ form label img {
 form label .eye,
 form label .access {
   right: 16px;
-}
-form label[for=checkbox] {
-  border: none;
-  padding: 0;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
 }
 form label .input__pass,
 form label .input__name {
@@ -196,6 +205,7 @@ form input[type=checkbox] {
   border-radius: 4px;
   width: 20px;
   height: 20px;
+  flex: 0 0 auto;
 }
 form #login {
   padding: 12px;

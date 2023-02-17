@@ -117,6 +117,23 @@ li {
     }
 }
 form {
+    .label_checkbox {
+        border: none;
+        padding: 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #c2c8da;
+    }
+    .checkbox__wrapper{
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        
+    }
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -139,13 +156,7 @@ form {
         .access {
             right: 16px;
         }
-        &[for="checkbox"] {
-            border: none;
-            padding: 0;
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 20px;
-        }
+
         .input__pass,
         .input__name {
             display: flex;
